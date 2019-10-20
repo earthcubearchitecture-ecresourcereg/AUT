@@ -1,0 +1,135 @@
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://purl.org/dc/elements/1.1/creator> "Ruth Duerr"@en .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://purl.org/dc/elements/1.1/description> "The Audience Types Controlled Vocabulary was created for NSF's EarthCube program's Resource Registry. The vocabulary defines the types of audience each resource in the program is targeted to.  At this point the vocabulary is very bare - no term definitions even; however, the intention is to extend the vocabulary over time.  If you would like to assist with this or in extending any of the other controlled vocabularies/ontologies developed as part of the Resource Registry project, please see https://github.com/earthcubearchitecture-ecresourcereg."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://purl.org/dc/elements/1.1/title> "Audience Types Controlled Vocabulary"@en .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://purl.org/dc/terms/bilbliographicCitation> "Duerr, R., 2019, \"Audience Types Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/AUT"@en .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> .
+<http://cor.esipfed.org/ont/earthcube/AUT> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bilbliographicCitation
+<http://purl.org/dc/terms/bilbliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000001
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://purl.org/dc/elements/1.1/description> "Agents that create data."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://purl.org/dc/elements/1.1/description> "Those who use data."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:37:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Data Producers"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000002
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://purl.org/dc/elements/1.1/description> "Agents that use data that has been created."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:37:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "Data Users"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000003
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://purl.org/dc/elements/1.1/description> "Agents that hold, manage, and possibly distribute data."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:37:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "Data Facilities and Repositories"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000004
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://purl.org/dc/elements/1.1/description> "People who specializes in technology."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:38:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Technologists"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000005
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://purl.org/dc/elements/1.1/description> "People focused on ensuring the acquisition, validation, storage, protection, and/or processing of data to ensure the accessibility, reliability, and timeliness of the data for its users."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:38:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Data Managers"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000006
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://purl.org/dc/elements/1.1/description> "Individuals that build and create software and applications."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:38:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "Developers"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000007
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://purl.org/dc/elements/1.1/description> "People who conduct scientific research to advance knowledge in an area of interest."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:38:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "Scientists"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000008
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://purl.org/dc/elements/1.1/description> "People who study, design, and develop information technology for the good of people, organizations, and society."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:38:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "Informaticists"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000009
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://purl.org/dc/elements/1.1/description> "Members of the general populace."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:39:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "Members of the Public"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000010
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/AUT_0000011> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://purl.org/dc/elements/1.1/description> "Any agent"@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:39:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "All"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/AUT_0000011
+<http://cor.esipfed.org/ont/earthcube/AUT_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000011> <http://purl.org/dc/elements/1.1/description> "The group of agents for whom an entity is intended."@en .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-19T23:39:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/AUT_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "Audience Types"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

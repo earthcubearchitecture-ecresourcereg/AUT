@@ -1,0 +1,474 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Audience Types Controlled Vocabulary"
+    },
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT",
+    "version" : "1.0.0",
+    "author" : [ "Ruth Duerr" ],
+    "description" : {
+      "en" : "The Audience Types Controlled Vocabulary was created for NSF's EarthCube program's Resource Registry. The vocabulary defines the types of audience each resource in the program is targeted to.  At this point the vocabulary is very bare - no term definitions even; however, the intention is to extend the vocabulary over time.  If you would like to assist with this or in extending any of the other controlled vocabularies/ontologies developed as part of the Resource Registry project, please see https://github.com/earthcubearchitecture-ecresourcereg."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      } ],
+      "bilbliographicCitation" : [ {
+        "identifier" : "bilbliographicCitation",
+        "language" : "en",
+        "value" : "Duerr, R., 2019, \"Audience Types Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/AUT",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Audience Types Controlled Vocabulary",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "The group of agents for whom an entity is intended."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:39:24Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000011",
+      "en" : "Audience Types"
+    },
+    "subClasses" : [ "9", "10", "1", "4", "6", "8", "11", "12", "13", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Agents that create data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:37:22Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000001",
+      "en" : "Data Producers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000010",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Any agent"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:39:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000010",
+      "en" : "All"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "People who specializes in technology."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:38:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000004",
+      "en" : "Technologists"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "People focused on ensuring the acquisition, validation, storage, protection, and/or processing of data to ensure the accessibility, reliability, and timeliness of the data for its users."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:38:17Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000005",
+      "en" : "Data Managers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000002",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Agents that use data that has been created."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:37:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000002",
+      "en" : "Data Users"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000003",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Agents that hold, manage, and possibly distribute data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:37:57Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000003",
+      "en" : "Data Facilities and Repositories"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000008",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "People who study, design, and develop information technology for the good of people, organizations, and society."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:38:51Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000008",
+      "en" : "Informaticists"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000009",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Members of the general populace."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:39:01Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000009",
+      "en" : "Members of the Public"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000006",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Individuals that build and create software and applications."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:38:26Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000006",
+      "en" : "Developers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/AUT_0000007",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "People who conduct scientific research to advance knowledge in an area of interest."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-19T23:38:36Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AUT_0000007",
+      "en" : "Scientists"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "2",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "2",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  } ]
+}

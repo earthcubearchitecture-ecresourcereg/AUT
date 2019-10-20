@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/AUT#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/AUT"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/AUT">
+        <dc:creator xml:lang="en">Ruth Duerr</dc:creator>
+        <dc:description xml:lang="en">The Audience Types Controlled Vocabulary was created for NSF&apos;s EarthCube program&apos;s Resource Registry. The vocabulary defines the types of audience each resource in the program is targeted to.  At this point the vocabulary is very bare - no term definitions even; however, the intention is to extend the vocabulary over time.  If you would like to assist with this or in extending any of the other controlled vocabularies/ontologies developed as part of the Resource Registry project, please see https://github.com/earthcubearchitecture-ecresourcereg.</dc:description>
+        <dc:title xml:lang="en">Audience Types Controlled Vocabulary</dc:title>
+        <terms:bilbliographicCitation xml:lang="en">Duerr, R., 2019, &quot;Audience Types Controlled Vocabulary&quot;, ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/AUT</terms:bilbliographicCitation>
+        <terms:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bilbliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bilbliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000001">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Agents that create data.</dc:description>
+        <dc:description xml:lang="en">Those who use data.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:37:22Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data Producers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000002 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Agents that use data that has been created.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:37:31Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data Users</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000003 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Agents that hold, manage, and possibly distribute data.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:37:57Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data Facilities and Repositories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000004 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">People who specializes in technology.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:38:05Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Technologists</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000005 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">People focused on ensuring the acquisition, validation, storage, protection, and/or processing of data to ensure the accessibility, reliability, and timeliness of the data for its users.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:38:17Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data Managers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000006 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000006">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Individuals that build and create software and applications.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:38:26Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Developers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000007 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000007">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">People who conduct scientific research to advance knowledge in an area of interest.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:38:36Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Scientists</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000008 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000008">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">People who study, design, and develop information technology for the good of people, organizations, and society.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:38:51Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Informaticists</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000009 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000009">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Members of the general populace.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:39:01Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Members of the Public</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000010 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000010">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/AUT_0000011"/>
+        <dc:description xml:lang="en">Any agent</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:39:11Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">All</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/AUT_0000011 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/AUT_0000011">
+        <dc:description xml:lang="en">The group of agents for whom an entity is intended.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-19T23:39:24Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Audience Types</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,279 @@
+[ {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The Audience Types Controlled Vocabulary was created for NSF's EarthCube program's Resource Registry. The vocabulary defines the types of audience each resource in the program is targeted to.  At this point the vocabulary is very bare - no term definitions even; however, the intention is to extend the vocabulary over time.  If you would like to assist with this or in extending any of the other controlled vocabularies/ontologies developed as part of the Resource Registry project, please see https://github.com/earthcubearchitecture-ecresourcereg."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Audience Types Controlled Vocabulary"
+  } ],
+  "http://purl.org/dc/terms/bilbliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "Duerr, R., 2019, \"Audience Types Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/AUT"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/share-your-work/public-domain/cc0/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Agents that create data."
+  }, {
+    "@language" : "en",
+    "@value" : "Those who use data."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:37:22Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Producers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Agents that use data that has been created."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:37:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Agents that hold, manage, and possibly distribute data."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:37:57Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Facilities and Repositories"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "People who specializes in technology."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:38:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technologists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "People focused on ensuring the acquisition, validation, storage, protection, and/or processing of data to ensure the accessibility, reliability, and timeliness of the data for its users."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:38:17Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Managers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Individuals that build and create software and applications."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:38:26Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Developers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "People who conduct scientific research to advance knowledge in an area of interest."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:38:36Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scientists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "People who study, design, and develop information technology for the good of people, organizations, and society."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:38:51Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Informaticists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Members of the general populace."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:39:01Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Members of the Public"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Any agent"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:39:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/AUT_0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The group of agents for whom an entity is intended."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-19T23:39:24Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audience Types"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bilbliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
